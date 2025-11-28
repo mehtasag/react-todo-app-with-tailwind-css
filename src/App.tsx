@@ -27,7 +27,7 @@ import React, { useState } from 'react';
       };
 
       return (
-        <div className="min-h-screen bg-pink-200 dark:bg-pink-900 py-6 flex items-center justify-center">
+        <div className="min-h-screen bg-yellow-200 dark:bg-yellow-900 py-6 flex items-center justify-center">
           <div className="container max-w-md bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
             <h1 className="text-2xl font-bold text-gray-800 dark:text-gray-200 mb-4">My Todos</h1>
             <TodoForm onAdd={handleAddTodo} />
